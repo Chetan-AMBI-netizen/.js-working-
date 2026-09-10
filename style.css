@@ -8,3 +8,15 @@ button{
     cursor:pointer;
     color:white;
 }
+.Box{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    background-color: aquamarine;
+    border: 1px solid black;
+    margin: 5px;
+    cursor: pointer;
+    box-shadow: firebrick;
+
+}
+
