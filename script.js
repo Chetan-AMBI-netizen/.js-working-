@@ -17,7 +17,7 @@ Box.innerText = Box.innerText + "Good bro"
 let div = document.querySelector("div");
 console.log(div);
 let id = div.getAttribute("id");
-console.log(id); */
+console.log(id); 
 let div = document.querySelector("div");
 console.log(div);
 console.log(div.setAttribute("id","class"));
@@ -27,6 +27,10 @@ div.style.fontSize = "30px";
 div.style.width = "200px";
 div.style.visibility= "visible";
 div.style.boxShadow = "black";
-
-
-
+*/
+let newbt = document.createElement("button");
+newbt.innerText = "Cleck here!";
+console.log(newbt);
+let di = document.querySelector("div");
+di.after(newbt);
+newbt.style.backgroundColor = "red";
