@@ -2,11 +2,19 @@ body{
     color: brown;
     background-color: burlywood;
 }
+
 button{
     background-position: center;
-    background-color: rgb(147, 147, 245);
+    background-color: rgb(241, 13, 13);
     cursor:pointer;
     color:white;
+}
+.color{
+    background-color:blueviolet;
+    color: black;
+    height: 100px;
+    width: 100px;
+    margin-inline-start: auto;
 }
 .Box{
     height: 100px;
@@ -19,4 +27,7 @@ button{
     box-shadow: firebrick;
 
 }
+
+
+
 
