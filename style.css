@@ -1,15 +1,8 @@
 body{
     color: brown;
-    background-color: burlywood;
+    background-color:antiquewhite;
 }
-
-button{
-    background-position: center;
-    background-color: rgb(241, 13, 13);
-    cursor:pointer;
-    color:white;
-}
-.color{
+.Content{
     background-color:blueviolet;
     color: black;
     height: 100px;

@@ -1,8 +1,23 @@
-let newBTn = document.createElement("button");
-newBTn.innerText = "Click me!";
-newBTn.style.color = "white";
-newBTn.style.backgroundColor = "red";
-document.querySelector("body").prepend(newBTn);
+let btn = document.querySelector("#btn");
+btn.onclick = (e) => {
+    console.log(e.type);
+     console.log(e.target);
+      console.log(e.clientX);
+       console.log(e.clientY);
+    
+    
+    let para = document.querySelector("p");
+    para.onmouseover = (evt) =>{
+         console.log(evt.type);
+          console.log(evt.target);
+           console.log(evt.clientX);
+            console.log(evt.clientY);
+    }
 
-document.querySelector("p");
 
+    console.log("error try agin!");
+    let a=403;
+    a++;
+    console.log(a);
+
+}
